@@ -1,0 +1,214 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+body{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#banner1{
+    background-image: url("./img/maldivas.webp");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#welcome{
+    background-color: #fff;
+    border: 1px solid #D9D9D9;
+    width: 31rem;
+    height: 16rem;
+    display: flex;
+    padding: 2rem 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-left: 14.25rem;
+    border-radius: 12px 12px 0 0;
+}
+
+#title{
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#welcome h1{
+    font-size: 32px;
+}
+
+#welcome span{
+    font-size: 16px;
+    font-style: italic;
+    color: #C1B491;
+}
+
+#desc{
+    font-style: italic;
+    padding-bottom: 1rem;
+    font-size: 18px;
+}
+
+#banner2{
+    height: 100%;
+    width: 100%;
+}
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    height: 20rem;
+    width: 14rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-left: 1rem;
+    border: 1px solid #D9D9D9;
+}
+
+.card img{
+    background-color: #C1B491;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+#banner3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#room{
+    width: 50rem;
+    height: 35rem;
+    background-image: url("./img/quarto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#explain{
+    height: 5.75rem;
+    width: 48rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border: 1px solid #D9D9D9;
+}
+
+#explain ol{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#descricao{
+    width: 39rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem 5.5rem;
+    border: 1px solid #D9D9D9;
+}
+
+#descricao h1{
+    font-size: 24px;
+}
+#descricao p{
+    font-size: 18px;
+}
+
+#btn{
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    width: 16rem;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    border: 3px solid #000;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+#btn img{
+    width: 2rem;
+    height: 2rem;
+}
+
+#banner4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#quad1{
+    width: 760px;
+    height: 35rem;
+    border: 1px solid #D9D9D9;
+}
+
+#quad1 h1{
+    padding-bottom: 1.5rem;
+    border-bottom: 3px solid #D9D9D9;
+    width: 700px;
+    margin: 3rem 30px;
+}
+
+#quad2{
+    background-color: #C1B491;
+    width: 760px;
+    height: 35rem;
+    border: 1px solid #D9D9D9;
+}
+
+#event{
+    width: 45rem;   
+    height: 12rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+}
+
+#event img{
+    height: 10rem;
+    width: 11rem;
+}
+
+#text{
+    width: 25rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
